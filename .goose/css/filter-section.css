@@ -1,0 +1,65 @@
+.fav-filter-section, .project-filter-section{
+    padding: 1rem;
+    width: 60%;
+}
+
+/* favorite filters */
+
+.fav-filter-section{
+    background-color: #686963;
+    scrollbar-color: #F1EDEE #ccc;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.fav-filter-section .fav-filter-item, .fav-filter-section .fav-start-icon{
+    background-color: #F1EDEE;
+    color: #000;
+    font-family: Arial, serif;
+    padding: .6rem 1rem;
+    border-radius: 5px;
+    margin: 0 .3rem;
+}
+
+.fav-filter-section .fav-start-icon{
+    color: #FFF275;
+    background-color: #D7D9B1;
+}
+
+.fav-filter-section .fav-filter-item:hover{
+    background-color: #8AA29E;
+    cursor: pointer;
+}
+
+.fav-filter-section .fav-filter-item.selected{
+    background-color: #44AF69;
+}
+
+.fav-filter-section .fav-filter-item.selected:hover{
+    background-color: #DB5461;
+}
+
+/* project filter */
+
+.project-filter-section{
+    width: 60%;
+    height: 40px;
+    background-color: #3D5467;
+}
+
+.project-filter-section .reset-btn{
+    background-color: #DB5461;
+}
+
+.project-filter-section select, .project-filter-section select option, .project-filter-section .reset-btn{
+    padding: .7rem;
+    outline: unset;
+    border: unset;
+    border-radius: 5px;
+}
+
+.project-filter-section select:hover, .project-filter-section .reset-btn:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
