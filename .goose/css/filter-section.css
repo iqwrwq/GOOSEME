@@ -1,6 +1,6 @@
 .fav-filter-section, .project-filter-section{
     padding: 1rem;
-    width: 60%;
+    width: 100%;
 }
 
 /* favorite filters */
@@ -43,7 +43,7 @@
 /* project filter */
 
 .project-filter-section{
-    width: 60%;
+    width: 100%;
     height: 40px;
     background-color: #3D5467;
 }

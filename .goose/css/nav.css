@@ -13,6 +13,8 @@
     width: 100px;
     top: 0;
     left: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 .main-nav .logo-section .logo {
@@ -69,7 +71,7 @@
     transform: translate(-20%);
 }
 
-.main-nav .app-config-section .config .config-refresh, .main-nav .app-config-section .config .config-main {
+.main-nav .app-config-section .config .config-refresh, .main-nav .app-config-section .config .config-main,.main-nav .app-config-section .config .config-create-project {
     font-size: 20px;
     color: #fff;
     background-color: #8AA29E;
@@ -78,6 +80,15 @@
     outline: unset;
     border: unset;
     border-radius: 5px;
+}
+
+.main-nav .app-config-section .config .config-create-project{
+    background-color: #44AF69;
+}
+
+.main-nav .app-config-section .config .config-create-project:hover{
+    cursor: pointer;
+    background-color: #51d27e;
 }
 
 .main-nav .app-config-section .config .config-refresh:hover, .main-nav .app-config-section .config .config-main:hover {
