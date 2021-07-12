@@ -73,6 +73,17 @@
 
         <!-- project selector section -->
         <div class="project-selector-section">
+            <div class="project-header">
+                <img class="project-header-image" src=".goose/assets/images/logo/logo.png" alt="">
+                <h2>Gooseme</h2>
+                <div class="project-labels">
+                    <span class="label">GIT</span>
+                    <span class="label">GIT</span>
+                    <span class="label">GIT</span>
+                    <span class="label">GIT</span>
+                    <span class="label">GIT</span>
+                </div>
+            </div>
             <div class="project-navigation">fdsafdfasd</div>
         </div>
     </div>

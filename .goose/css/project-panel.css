@@ -1,7 +1,23 @@
 .project-selector-section{
     position: relative;
-    right: 0;
-
     background-color: #DB5461;
     height: 100%;
+}
+
+.project-selector-section .project-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #F1EDEE;
+    min-height: 40%;
+    padding: 2rem;
+    margin: 0 1rem;
+}
+
+.project-selector-section .project-header .project-header-image{
+    width: 150px;
+    background-color: #3D5467;
+    border-radius: 50%;
+    border: solid #8AA29E 2px;
 }
