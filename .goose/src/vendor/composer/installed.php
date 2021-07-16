@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'be13c274690eafa6073467971b37812c55868173',
+    'reference' => 'e6fd9b8102f48069e5fa5b5448bc84c0cb6da57a',
     'name' => 'de.eique/gooseme',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'be13c274690eafa6073467971b37812c55868173',
+      'reference' => 'e6fd9b8102f48069e5fa5b5448bc84c0cb6da57a',
     ),
     'symfony/polyfill-ctype' => 
     array (

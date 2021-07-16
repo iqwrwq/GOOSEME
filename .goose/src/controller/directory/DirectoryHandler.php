@@ -1,5 +1,7 @@
 <?php
 
+namespace Gooseme\directory;
+
 class DirectoryHandler
 {
     public function __construct()

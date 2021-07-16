@@ -40,7 +40,6 @@ class FilesystemLoader implements LoaderInterface
         if (null !== $rootPath && false !== ($realPath = realpath($rootPath))) {
             $this->rootPath = $realPath.\DIRECTORY_SEPARATOR;
         }
-
         if ($paths) {
             $this->setPaths($paths);
         }
