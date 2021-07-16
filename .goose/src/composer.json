@@ -1,0 +1,13 @@
+{
+    "name": "de.eique/gooseme",
+    "description": "a simple local webserver frontend page",
+    "authors": [
+        {
+            "name": "iqwrwq",
+            "email": "Arthur.schimpf@gmx.de"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.3"
+    }
+}
